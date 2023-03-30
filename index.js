@@ -111,10 +111,6 @@ if (ch > "A" && ch < "Z")
 else if (ch > "a" && ch < "z")
     console.log("Your entered word is lowercase alphabet");
 }
-// {
-//     var weak = ("1")
-//     if (weak )
-// }
 // [program no: 12]
 {
     var month = (2)
@@ -138,5 +134,50 @@ else if (ch > "a" && ch < "z")
       console.log("Triangle is valid ");
     else
       console.log("Triangle is not valid ");  
+}
+// [program no: 15]
+{
+   var sideA = "10cm",sideB = "10cm",sideC = "10cm";
+   if ( sideA == sideB && sideB == sideC && sideA == sideC)
+      console.log("This triangle is valid");
+   else  
+      console.log("This triangle is not valid");
+}
+// [program no: 16]
+{
+    var a=56,b=90,c=34;
+    if ( a==56 && b==90 && c==34)
+       console.log("This triangle is scalene triangle");
+    else   
+       console.log("This triangle is not scalene triangle");  
+}
+// [program no: 18]
+// "If the amount of money in the variable is less than 10,000,
+// then we incur a loss, and if it is more than 10,000, we make a profit."
+{   
+    var money=5000 ;
+    if (money < 10000)
+       console.log("We got Loss");
+    if (money > 10000)
+       console.log("We got Profit");
+}
+// [program no: 19]
+{
+    var  Physics=95, Chemistry=95, Biology=95, Mathematics=95, Computer=95;
+    var Totalnumber = "95%" ;
+    if (Totalnumber > "90%" )
+       console.log("Grade A");
+    else if (Totalnumber > "80%" )
+       console.log("Grade B");
+    else if (Totalnumber > "70%" )
+       console.log("Grade C");
+    else if (Totalnumber > "60%" )
+       console.log("Grade D");
+    else if (Totalnumber > "50%" )
+       console.log("Grade E");
+    else if (Totalnumber > "40%" )
+       console.log("Grade F");
+    else if (Totalnumber < "40%" )
+       console.log("Failed");
 }
  
